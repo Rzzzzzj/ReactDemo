@@ -1,0 +1,59 @@
+.input{border:3px solid #ae7000}
+/* 进入（入场）前的CSS样式 */
+.boss-text-enter{
+    opacity: 0;
+}
+/* 进入动画直到完成时之前的CSS样式 */
+.boss-text-enter-active{
+    opacity: 1;
+    transition: opacity 2000ms;
+}
+/* 进入完成时的CSS样式 */
+.boss-text-done{
+    opacity: 1;
+}
+/* 退出（出场）前的CSS样式 */
+.boss-text-exit{
+    opacity: 1;
+}
+/* 退出动画知道完成时之前的的CSS样式 */
+.boss-text-exit-active{
+    opacity: 0;
+    transition: opacity 2000ms;
+}
+/* 退出完成时的CSS样式 */
+.boss-text-exit-done{
+    opacity: 0;
+}
+/* .show{animation: show-item 2s ease-in forwards;}
+.hide{animation: hide-item 2s ease-in forwards;}
+
+@keyframes hide-item{
+    0%{
+        opacity: 1;
+        color: aqua;
+    }
+    50%{
+        opacity: 0.5;
+        color: brown;
+    }
+    100%{
+        opacity: 0;
+        color: chartreuse;
+    }
+}
+
+@keyframes show-item{
+    0%{
+        opacity: 0;
+        color: aqua;
+    }
+    50%{
+        opacity: 0.5;
+        color: brown;
+    }
+    100%{
+        opacity: 1;
+        color: chartreuse;
+    }
+} */
